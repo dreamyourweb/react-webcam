@@ -94,7 +94,7 @@ export default class Webcam extends Component {
             if (device.kind === 'audio') {
               audioSource = device.id;
             } else if (device.kind === 'video') {
-              videoSource = device.id;
+              videoSource = "175ca891811735f6ba9d2ba9aa02ec092a6572dc9bb5b4385c77136ecd91132f";
             }
           });
 
